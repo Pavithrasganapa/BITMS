@@ -1,0 +1,272 @@
+.header {
+    border-radius: 3px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+.navbar li {
+    padding: 5px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+.navbar li a:hover{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    background: rgb(14, 13, 13);
+    border-radius: 13px;
+}
+
+.content {
+    background: linear-gradient(45deg, #E0F2F1, #00897B);
+    border-radius: 13px;
+    height: 234px;
+    position: relative;
+    top: -50px;
+    z-index: -1;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+#Home {
+    top: 10px;
+    position: absolute;
+    left: 22px;
+}
+
+#About {
+    background-color: #E0F2F1;
+    border-radius: 13px;
+    padding: 20px;
+    margin-top: -45px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.skill {
+    background: #acdbd8;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    height: 320px;
+    padding-left: 8px;
+    margin-top: -15px;
+}
+
+.progress-bar {
+    background: #ecf0f0;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 2px;
+}
+
+.progress-bar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    background: #328b87;
+}
+
+.progress-bar div span {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    float: right;
+    margin-top: -5px;
+    margin-right: -16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #328b87;
+}
+
+.Python{
+
+    animation: Python 1s linear forwards;
+}
+
+.html{
+    animation: html 1s linear forwards;
+}
+
+.css{
+    animation: css 1s linear forwards;
+}
+
+.dsa{
+    animation: dsa 1s linear forwards;
+}
+
+@keyframes Python {
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes html {
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes css {
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes dsa {
+    100% {
+        width: 55%;
+    }
+}
+.project{
+    display: flex;
+    text-justify: auto;
+    background: #E0F2F1;
+    margin-top: 5px;
+    border-radius: 12px;
+}
+.project h6{
+    letter-spacing: 1px;
+    font-size: 21px;
+    position: absolute;
+    margin: auto;
+    padding: 5px;
+}
+.pro{
+    margin-top: 54px;
+    padding: 5px;
+}
+.pro h7{
+    background: #acdbd8;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.pro1{
+    margin-top: 54px;
+    padding: 5px;
+}
+.pro1 h8{
+    background: #acdbd8;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.certificate{
+    background: #328b87;
+    margin-top: 5px;
+    border-radius: 12px;
+    padding: 5px;
+    height: 80px;
+}
+.certificate h9{
+    display: flex;
+    font-size: 21px;
+    position: relative;
+    top: 15px;
+    justify-content: center;
+}
+.certificate a{
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: black;
+}
+.certificate a:hover{
+    background: linear-gradient(75deg, #75aeab, #fefefe);
+    border-radius: 12px;
+    color: white;
+}
+.resu{
+    background: #E0F2F1;
+    margin-top: 5px;
+    border-radius: 12px;
+    padding: 5px;
+    height: 80px;
+}
+.resu h10{
+    display: flex;
+    font-size: 21px;
+    position: relative;
+    top: 15px;
+    justify-content: center;
+}
+.resu a{
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: black;
+}
+.resu a:hover{
+    background: linear-gradient(75deg,#38717d, #fefefe);
+    border-radius: 12px;
+    color: white;
+}
+.contact{
+    background: #80cbc494;
+    margin-top: 5px;
+    border-radius: 12px;
+    padding: 5px;
+    height: 120px;
+}
+.contact h11{
+    display: flex;
+    font-size: 21px;
+    position: relative;
+    top: 15px;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links img{
+    height: 20px;
+    width: 20px;
+    border-radius: 12px;
+    position: relative;
+    top: 5.5px;
+}
+.mail{
+    padding: 10px;
+}
+.ldn{
+    padding: 10px;
+}
+.git{
+    padding: 10px;
+}
+.hac{
+    padding: 10px;
+}
